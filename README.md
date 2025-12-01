@@ -1,0 +1,2 @@
+This is dictonary website where the user type any word thay want to know it meaning and they will know the meaning just like oxford website.
+The dicronary API that we will be using is - https://dictionaryapi.dev/
