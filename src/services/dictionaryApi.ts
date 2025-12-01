@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { DictionaryResponse } from '@/types/dictionary';
+import type { DictionaryResponse } from '@/types/dictionary';
 
 const API_BASE_URL = 'https://api.dictionaryapi.dev/api/v2/entries/en';
 

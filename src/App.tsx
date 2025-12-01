@@ -31,7 +31,7 @@ function App() {
   const [word, setWord] = useState('')
   const [searchTerm, setSearchTerm] = useState('')
 
-  const { data, isLoading, isError, error } = useQuery({
+  const { data, isLoading, isError } = useQuery({
     queryKey: ['dictionary', searchTerm],
     queryFn: () => searchWord(searchTerm),
     enabled: !!searchTerm,
